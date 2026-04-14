@@ -1,0 +1,83 @@
+{
+  "name": "local-settlement-demo",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@leafac/rehype-shiki": "^2.2.1",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "13.4.16",
+    "@t3-oss/env-nextjs": "^0.7.0",
+    "axios": "^1.6.7",
+    "clsx": "^1.2.0",
+    "escape-string-regexp": "^5.0.0",
+    "ethers": "^6.16.0",
+    "fast-glob": "^3.2.12",
+    "framer-motion": "^10.15.2",
+    "google-auth-library": "^9.14.0",
+    "google-spreadsheet": "^4.1.2",
+    "googleapis": "^143.0.0",
+    "next": "^14.2.3",
+    "qrcode.react": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.49.2",
+    "react-media-devices": "^1.1.1",
+    "react-qr-code": "^2.0.12",
+    "react-zxing": "^2.0.0",
+    "recma-import-images": "0.0.3",
+    "remark-gfm": "^3.0.1",
+    "remark-rehype-wrap": "0.0.3",
+    "remark-unwrap-images": "^3.0.1",
+    "shiki": "^0.11.1",
+    "superjson": "^1.13.1",
+    "unified-conditional": "0.0.2",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/eslint": "^8.44.2",
+    "@types/mdx": "^2.0.7",
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "autoprefixer": "^10.4.14",
+    "clsx": "^2.0.0",
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.5.4",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.1",
+    "sharp": "^0.32.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  },
+  "ct3aMetadata": {
+    "initVersion": "7.22.0"
+  },
+  "overrides": {
+    "react-qr-reader": {
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0"
+    }
+  },
+  "packageManager": "npm@9.2.0"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Local Settlement Demo",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "prisma.prisma",
+          "bradlc.vscode-tailwindcss",
+          "sourcegraph.cody-ai",
+          "Postman.postman-for-vscode"
+        ]
+      }
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node"
+  }
+  

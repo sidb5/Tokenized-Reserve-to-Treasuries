@@ -1,0 +1,42 @@
+{
+  "name": "gld-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain library for phinance.gold",
+  "main": "index.js",
+    "scripts": {
+    "test": "npx hardhat test",
+    "abis": "npx hardhat compile && jq '.abi' artifacts/contracts/Gld.sol/Gld.json > src/abis/Gld.json && jq '.abi' artifacts/contracts/PhiPayLicensable.sol/PhiPayLicensable.json > src/abis/PhiPayLicensable.json",
+    "node": "npx hardhat node",
+    "deploy:mainnet": "npx hardhat ignition deploy ignition/modules/UsdcTestModule.ts --network polygon",
+    "deploy:local": "npx hardhat run scripts/deploy_local_demo.ts --network localhost",
+    "demo:smoke": "npx hardhat run scripts/smoke_local_demo.ts --network localhost"
+  },
+  "author": "Steven Hernandez",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.9",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.14",
+    "@types/sinon-chai": "^3.2.12",
+    "chai": "^4.4.1",
+    "dotenv": "^16.1.4",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.19.5",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.1",
+    "thirdweb": "^5.112.4"
+  }
+}

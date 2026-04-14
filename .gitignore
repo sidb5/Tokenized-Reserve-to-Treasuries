@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+cache/
+artifacts/
+typechain/
+typechain-types/
+contracts-main/src/types/
+*.tsbuildinfo
+*.log
+.env
+.env*.local
+.vercel/
+.DS_Store
+_pdf_extracts/

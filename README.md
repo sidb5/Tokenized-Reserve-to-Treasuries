@@ -1,6 +1,6 @@
 # Local Settlement Demo
 
-Local EVM settlement prototype with a Next.js demo console. The app demonstrates a wallet funding flow, token purchase, merchant payment routing, redemption request, and a server-side Treasury execution package.
+Prototype implementation of a patent concept for reserve-backed securities conversion into Treasuries, linking tokenized gold settlement with brokerage execution rails to help broaden the market for U.S. government securities. Local EVM settlement prototype with a Next.js demo console. The app demonstrates a wallet funding flow, token purchase, merchant payment routing, redemption request, and a server-side Treasury execution package.
 
 This repository is for local demonstration only. It is not configured for production trading, custody, brokerage, securities issuance, or consumer payments.
 

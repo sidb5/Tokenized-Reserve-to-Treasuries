@@ -1,4 +1,4 @@
-# Local Settlement Demo
+# Local Settlement Demo between Reserve backed token and US Govt Securities
 
 Prototype implementation of a patent concept for reserve-backed securities conversion into Treasuries, linking tokenized gold settlement with brokerage execution rails to help broaden the market for U.S. government securities. Local EVM settlement prototype with a Next.js demo console. The app demonstrates a wallet funding flow, token purchase, merchant payment routing, redemption request, and a server-side Treasury execution package.
 
